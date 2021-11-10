@@ -1,0 +1,58 @@
+<html>
+  <style>
+    input[type=text], select {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+    
+    input[type=password], select {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    input[type=submit] {
+      width: 100%;
+      background-color: #4CAF50;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    input[type=submit]:hover {
+      background-color: #45a049;
+    }
+    
+    div {
+      border-radius: 5px;
+      background-color: #f2f2f2;
+      padding: 20px;
+    }
+    </style>
+   <body>
+     <b><h1 style="color:#45a049;text-align:center;">Generate Report from your Looks in Word/PPT format</h1></b>
+     <div>
+    <form action="/dash" method = "POST">
+
+        <p><b>BASE URL</b> <input type = "text" name = "base_url" /></p>
+        <p><b>CLIENT ID</b> <input type = "password" name = "client_id" /></p>
+        <p><b>CLIENT SECRET</b> <input type = "password" name = "client_secret" /></p>
+
+
+        <p><input type = "submit" value = "Submit" /></p>
+    </form>
+  </div>
+   </body>
+</html>
