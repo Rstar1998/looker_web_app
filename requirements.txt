@@ -12,7 +12,7 @@ Jinja2==3.0.3
 looker-sdk==21.20.0
 lxml==4.6.5
 MarkupSafe==2.0.1
-Pillow==9.2.0
+Pillow==9.3.0
 python-docx==0.8.11
 python-pptx==0.6.21
 requests==2.26.0
